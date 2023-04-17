@@ -19,10 +19,26 @@
         android:id="@+id/SecondFragment"
         android:name="com.DispositivosMoviles2023.myapplication.SecondFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment_second"/>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.DispositivosMoviles2023.myapplication.ThirdsFragment"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/fragment_third">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_ThirdFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FourFragment"
+        android:name="com.DispositivosMoviles2023.myapplication.FourFragment"
+        android:label="@string/four_fragment_label"
+        tools:layout="@layout/fragment_four">
+
+        <action
+            android:id="@+id/action_FourFragment_to_FirstFragment"
+            app:destination="@id/FourFragment" />
     </fragment>
 </navigation>
