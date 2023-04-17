@@ -16,21 +16,32 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
-    private AppBarConfiguration appBarConfiguration;
-    private ActivityMainBinding binding;
+    //private AppBarConfiguration appBarConfiguration;
+    //private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        //binding = ActivityMainBinding.inflate(getLayoutInflater());
 
-        setSupportActionBar(binding.toolbar);
+        //setContentView(binding.getRoot());
 
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        //Hay que descomentar la vista que queramos ver y comentar las demas
+
+        setContentView(R.layout.fragment_first); //CATALOGO
+
+        //setContentView(R.layout.fragment_second); //BUSQUEDA
+
+        //setContentView(R.layout.fragment_third); //LOGIN
+
+        //setContentView(R.layout.fragment_four); //PORTADA
+
+        //setSupportActionBar(binding.toolbar);
+
+        //NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        //appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
+        //NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
     }
 
     @Override
@@ -58,7 +69,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        return NavigationUI.navigateUp(navController, appBarConfiguration)
-                || super.onSupportNavigateUp();
+        //return NavigationUI.navigateUp(navController, appBarConfiguration)
+          //      || super.onSupportNavigateUp();
+        return false;
     }
 }
