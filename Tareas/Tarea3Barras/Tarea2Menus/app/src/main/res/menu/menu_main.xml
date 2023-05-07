@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.DispositivosMoviles2023.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="2"
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="3"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_information"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="4"
+        android:title="@string/action_information"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="5"
+        android:title="@string/action_preferences"
+        app:showAsAction="ifRoom" />
+</menu>
