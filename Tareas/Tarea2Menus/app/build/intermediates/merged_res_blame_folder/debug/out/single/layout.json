@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-40:/layout/content_main.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-43:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-40:/layout/fragment_second.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-43:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-40:/layout/fragment_first.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-43:/layout/fragment_first.xml"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-41:/layout/fragment_four.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-44:/layout/fragment_four.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-41:/layout/fragment_third.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-44:/layout/fragment_third.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-41:/layout/left_drawer.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-44:/layout/left_drawer.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-41:/layout/activity_home.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-44:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-41:/layout/fragment_second.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-44:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-41:/layout/content_main.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-44:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.DispositivosMoviles2023.myapplication.app-mergeDebugResources-41:/layout/fragment_first.xml",
+        "source": "com.DispositivosMoviles2023.myapplication.app-main-44:/layout/fragment_first.xml"
+    }
+]
